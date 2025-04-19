@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: yourdockerhub/backend
+        image: pinal1102/backend
         ports:
         - containerPort: 5000
 ---
