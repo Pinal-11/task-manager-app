@@ -20,13 +20,13 @@ jobs:
 
     - name: Build and Push Backend Image
       run: |
-        docker build -t yourdockerhubusername/task-backend ./backend
-        docker push yourdockerhubusername/task-backend
+        docker build -t pinal1102/task-backend ./backend
+        docker push pinal1102/task-backend
 
     - name: Build and Push Frontend Image
       run: |
-        docker build -t yourdockerhubusername/task-frontend ./frontend
-        docker push yourdockerhubusername/task-frontend
+        docker build -t pinal1102/task-frontend ./frontend
+        docker push pinal1102/task-frontend
 
     - name: Configure kubectl
       run: |
